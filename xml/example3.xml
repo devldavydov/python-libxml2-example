@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Just xml -->
+<shopcart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <manager>Jack Johnes</manager>
+  <delivery>
+    <name>Tom Raddle</name>
+    <address>Elm st. 123</address>
+    <city>Redwood</city>
+    <country>USA</country>
+  </delivery>
+  <item>
+    <id>ABCD1234</id>
+    <desc>LED TV Somsang TV123</desc>
+    <quantity>1</quantity>
+    <price foo="USD">500</price>
+  </item>
+  <item uid="2">
+    <id>ABCD1235</id>
+    <quantity>1</quantity>
+    <price cur="EUR">30.00</price>
+  </item>
+  <foo><bar/></foo>
+</shopcart>

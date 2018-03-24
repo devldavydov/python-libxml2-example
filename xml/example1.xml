@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Just xml -->
+<shopcart orderid="889923" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <manager>Jack Johnes</manager>
+  <delivery>
+    <name>Tom Raddle</name>
+    <address>Elm st. 123</address>
+    <city>Redwood</city>
+    <country>USA</country>
+  </delivery>
+  <item uid="1">
+    <id>ABCD1234</id>
+    <desc>LED TV Somsang TV123</desc>
+    <quantity>1</quantity>
+    <price cur="USD">500</price>
+  </item>
+  <item uid="2">
+    <id>ABCD1235</id>
+    <desc>WiFi Router 良好的網絡</desc>
+    <quantity>1</quantity>
+    <price cur="EUR">30.00</price>
+  </item>
+</shopcart>
